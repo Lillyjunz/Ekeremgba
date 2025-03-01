@@ -7,6 +7,7 @@ function App() {
       <MainScripts></MainScripts>
       {/* <Home></Home> */}
       <PhotoGallery></PhotoGallery>
+      {/* <About></About> */}
     </div>
   );
 }

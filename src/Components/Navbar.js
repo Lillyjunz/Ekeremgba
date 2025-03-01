@@ -102,29 +102,7 @@ const Navbar = () => {
                       <a href="blog.html" className="nav-item nav-link">
                         Akuko
                       </a>
-                      {/* <div className="nav-item dropdown">
-                        <a
-                          href="#"
-                          className="nav-link"
-                          data-bs-toggle="dropdown"
-                        >
-                          <span className="dropdown-toggle">Pages</span>
-                        </a>
-                        <div className="dropdown-menu">
-                          <a href="feature.html" className="dropdown-item">
-                            Our Features
-                          </a>
-                          <a href="team.html" className="dropdown-item">
-                            Our team
-                          </a>
-                          <a href="testimonial.html" className="dropdown-item">
-                            Testimonial
-                          </a>
-                          <a href="404.html" className="dropdown-item">
-                            404 Page
-                          </a>
-                        </div>
-                      </div> */}
+
                       <a href="contact.html" className="nav-item nav-link">
                         Ikwere anyi
                       </a>
