@@ -1,11 +1,12 @@
 import MainScripts from "./Components/MainScripts";
-import Home from "./Pages/Home";
+import PhotoGallery from "./Pages/PhotoGallery";
 
 function App() {
   return (
     <div className="App">
       <MainScripts></MainScripts>
-      <Home></Home>
+      {/* <Home></Home> */}
+      <PhotoGallery></PhotoGallery>
     </div>
   );
 }

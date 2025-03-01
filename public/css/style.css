@@ -455,7 +455,7 @@
 
 /*** Carousel Hero Header Start ***/
 .hero-section {
-  background-image: url(../img/l.jpg);
+  background-image: url(../img/for.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -468,7 +468,7 @@
 }
 
 .hero-bg-half-1 {
-  background-image: url(../img/lu.jpg);
+  background-image: url(../img/forr.jpg);
   clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
   filter: grayscale(15%);
   transform: scale(100% - 50%);
@@ -483,7 +483,7 @@
 }
 
 .hero-bg-half-2 {
-  background-image: url(../img/lu.jpg);
+  background-image: url(../img/forr.jpg);
   clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
   filter: grayscale(15%);
   transform: scale(100% - 50%);
@@ -1389,4 +1389,60 @@
   margin-top: 10px;
   font-size: 18px;
   color: #333;
+}
+
+/* photo gallery */
+/* .gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 20px;
+}
+
+.card {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+.gallery-container {
+  display: flex;
+  justify-content: center; /* Center the gallery */
+  padding: 20px; /* Add padding on the sides */
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+  gap: 20px; /* Equal spacing between images */
+  width: 80%; /* Control the overall width to center content */
+}
+
+.card {
+  width: 100%;
+  height: 200px; /* Fixed height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
 }
