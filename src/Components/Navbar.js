@@ -243,16 +243,12 @@ const Navbar = () => {
                   <div className="col-lg-7 animated fadeInLeft">
                     <div className="text-sm-center text-md-start">
                       <h4 className="text-primary text-uppercase fw-bold mb-4">
-                        Wellcome to our fitness Center
+                        Ekeremgba Akpauche
                       </h4>
                       <h1 className="display-2 text-white mb-4">
-                        Stay healthy by exercising at the best gym center
+                        Igbasa ozi uru omenaala na asusu igbo bara
                       </h1>
-                      <p className="mb-5 fs-5">
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy...
-                      </p>
+                      <p className="mb-5 fs-5">Ihe omume nke ndi Aba Diocese</p>
                       <div className="d-flex justify-content-center justify-content-md-start flex-shrink-0 mb-4">
                         <a
                           className="btn btn-dark py-3 px-4 px-md-5 me-2"

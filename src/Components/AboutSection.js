@@ -26,7 +26,7 @@ const AboutSection = () => {
                         data-bs-toggle="pill"
                         href="#tab-1"
                       >
-                        <span style={{ width: 150 }}>Our Mission</span>
+                        <span style={{ width: 150 }}>Ozi anyi</span>
                       </a>
                     </li>
                     <li className="nav-item mb-3">
@@ -35,7 +35,7 @@ const AboutSection = () => {
                         data-bs-toggle="pill"
                         href="#tab-2"
                       >
-                        <span style={{ width: 150 }}>Our Vision</span>
+                        <span style={{ width: 150 }}>Maka odinihu</span>
                       </a>
                     </li>
                     <li className="nav-item mb-3">
@@ -44,7 +44,7 @@ const AboutSection = () => {
                         data-bs-toggle="pill"
                         href="#tab-3"
                       >
-                        <span style={{ width: 150 }}>Our Goal</span>
+                        <span style={{ width: 150 }}>Ebumnuche anyi</span>
                       </a>
                     </li>
                   </ul>
