@@ -24,7 +24,7 @@ const Navbar = () => {
           <div className="container d-flex align-items-center ">
             <div className="d-flex align-items-center h-100 ">
               <a href="#" className="navbar-brand ">
-                <img src="img/log.png" width={90} alt="Logo" />
+                <img src="img/logooo.png" width={140} alt="Logo" />
               </a>
             </div>
             <div className="w-100 h-100">
@@ -75,7 +75,7 @@ const Navbar = () => {
                   </div>
                 </div>
               </div>
-              <div className="nav-bar px-0 py-lg-0" style={{ height: 80 }}>
+              <div className="nav-bar px-0 py-lg-0" style={{ height: 85 }}>
                 <nav className="navbar navbar-expand-lg navbar-light d-flex justify-content-lg-end">
                   <a href="#" className="navbar-brand-2">
                     <img src="img/logo.png" width={70} alt="Logo" />
@@ -97,12 +97,12 @@ const Navbar = () => {
                         Maka anyi
                       </a>
                       <a href="course.html" className="nav-item nav-link">
-                        Courses
+                        Ebe ngosi
                       </a>
                       <a href="blog.html" className="nav-item nav-link">
-                        Blogs
+                        Akuko
                       </a>
-                      <div className="nav-item dropdown">
+                      {/* <div className="nav-item dropdown">
                         <a
                           href="#"
                           className="nav-link"
@@ -124,7 +124,7 @@ const Navbar = () => {
                             404 Page
                           </a>
                         </div>
-                      </div>
+                      </div> */}
                       <a href="contact.html" className="nav-item nav-link">
                         Ikwere anyi
                       </a>
@@ -206,15 +206,13 @@ const Navbar = () => {
                   <div className="col-lg-7 animated fadeInLeft">
                     <div className="text-sm-center text-md-start">
                       <h4 className="text-primary text-uppercase fw-bold mb-4">
-                        Wellcome to our fitness Center
+                        Ekeremgba Akpauche
                       </h4>
                       <h1 className="display-1 text-white mb-4">
-                        The best gym center is now in your city
+                        Nkwalite omenaala na asusu igbo
                       </h1>
                       <p className="mb-5 fs-5">
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy...
+                        Asompi nke umu akwukwo sekondiri niile no na aba diocese
                       </p>
                       <div className="d-flex justify-content-center justify-content-md-start flex-shrink-0 mb-4">
                         <a

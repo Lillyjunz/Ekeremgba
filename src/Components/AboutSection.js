@@ -11,8 +11,7 @@ const AboutSection = () => {
               <div className="about-content h-100">
                 <h4 className="text-primary">Maka Ekeremgba akpauche</h4>
                 <h1 className="display-4 text-white mb-4">
-                  We are the best at fulfilling your potential and achieving
-                  your goals.
+                  Ihe omume anyi ji enye aka ikwalite omenaala na asusu igbo
                 </h1>
                 <p className="mb-4">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. In

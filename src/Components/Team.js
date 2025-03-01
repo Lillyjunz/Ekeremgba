@@ -11,8 +11,8 @@ const Team = () => {
             data-wow-delay="0.2s"
             style={{ maxWidth: 800 }}
           >
-            <h4 className="text-primary">Nkwado</h4>
-            <h1 className="display-4 mb-4">Ndi Nkwado Ekeremgba Akpauche</h1>
+            <h4 className="text-primary">Nhazi</h4>
+            <h1 className="display-4 mb-4">Ndi Nhazi Ekeremgba Akpauche</h1>
             <p className="mb-0">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
               adipisci facilis cupiditate recusandae aperiam temporibus corporis

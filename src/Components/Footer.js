@@ -48,24 +48,20 @@ const Footer = () => {
               <div className="col-md-6 col-lg-6 col-xl-3">
                 <div className="footer-item">
                   <h4 className="text-white mb-4">
-                    <img src="img/log.png" width={90} alt="Logo" />
+                    <img src="img/logooo.png" width={130} alt="Logo" />
                   </h4>
                   <p className="mb-0">
-                    Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem
-                    ipsum dolor sit amet, consectetur adipiscing elit
-                    consectetur adipiscing elit.
+                    Asusu igbo na omenaala igbo ga adigide!
                   </p>
                 </div>
               </div>
               <div className="col-md-6 col-lg-6 col-xl-3">
                 <div className="footer-item">
                   <h4 className="text-white mb-4">Quick Links</h4>
-                  <a href="#"> Home</a>
-                  <a href="#"> About us</a>
-                  <a href="#"> Our Courses</a>
-                  <a href="#"> Our Features</a>
-                  <a href="#"> Our Blog &amp; news</a>
-                  <a href="#"> Testimonial</a>
+                  <a href="#"> Ulo</a>
+                  <a href="#"> Maka anyi</a>
+                  <a href="#"> Ebe ngosi</a>
+                  <a href="#"> Ikwere anyi</a>
                 </div>
               </div>
               <div className="col-md-6 col-lg-6 col-xl-3">
