@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import Footer from "../Components/Footer";
 
 const About = () => {
@@ -93,9 +94,12 @@ const About = () => {
                   </button>
                   <div className="collapse navbar-collapse" id="navbarCollapse">
                     <div className="navbar-nav mx-0 mx-lg-auto">
-                      <a href="index.html" className="nav-item nav-link">
+                      {/* <a href="index.html" className="nav-item nav-link">
                         Home
-                      </a>
+                      </a> */}
+                      <NavLink to="/" className="nav-item nav-link">
+                        Home
+                      </NavLink>
                       <a href="about.html" className="nav-item nav-link active">
                         About
                       </a>

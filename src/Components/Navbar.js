@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -90,22 +91,26 @@ const Navbar = () => {
                   </button>
                   <div className="collapse navbar-collapse" id="navbarCollapse">
                     <div className="navbar-nav mx-0 mx-lg-auto">
-                      <a href="index.html" className="nav-item nav-link active">
+                      <NavLink to="/" className="nav-item nav-link active">
                         Ulo
-                      </a>
+                      </NavLink>
                       <a href="about.html" className="nav-item nav-link">
-                        Maka anyi
+                        About
                       </a>
-                      <a href="course.html" className="nav-item nav-link">
-                        Ebe ngosi
-                      </a>
-                      <a href="blog.html" className="nav-item nav-link">
-                        Akuko
-                      </a>
+                      <NavLink to="/gallery" className="nav-item nav-link">
+                        {" "}
+                        Ebe Ngosi
+                      </NavLink>
 
-                      <a href="contact.html" className="nav-item nav-link">
+                      <NavLink to="/about" className="nav-item nav-link">
+                        {" "}
+                        Akuko
+                      </NavLink>
+
+                      <NavLink to="/contact" className="nav-item nav-link">
+                        {" "}
                         Ikwere anyi
-                      </a>
+                      </NavLink>
                       <div className="nav-btn ps-3">
                         <button
                           className="btn-search btn btn-primary btn-md-square mt-2 mt-lg-0 mb-4 mb-lg-0 flex-shrink-0"
