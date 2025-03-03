@@ -80,6 +80,16 @@ const PhotoGallery = () => {
   return (
     <>
       <Head></Head>
+      <div className="container-fluid bg-breadcrumb">
+        <div className="container text-center py-5" style={{ maxWidth: 900 }}>
+          <h4
+            className="text-white display-4 mb-4 wow fadeInDown"
+            data-wow-delay="0.1s"
+          >
+            Ebe Ngosi Eserese Ekeremgba Akpauche ndi gara aga
+          </h4>
+        </div>
+      </div>
       <div className="gallery-container">
         <div className="gallery">
           {currentImages.map((src, index) => (
